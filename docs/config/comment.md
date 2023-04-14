@@ -25,25 +25,27 @@ OAuth App 创建成功后，把 Client ID 和 Client Secret 保存起来，下�
 把自己的 GitHub 用户名、仓库名 、OAuth App 的 Client ID 、Client Secret 分别填写在主题配置文件里。
 
 ```yml
-comment:
-  config:
-    gitalk:
-      clientId: # 你的 Client ID
-      clientSecret: # 你的 Client Secret
-      repository: # 你的仓库名
-      owner: # 你的 GitHub 用户名
-      createIssueManually: true # 是否手动创建 Issue，如果为 true，则会显示一个初始化按钮，点击后才会创建 Issue
+gitalk:
+  clientId: # 你的 Client ID
+  clientSecret: # 你的 Client Secret
+  repository: # 你的仓库名
+  owner: # 你的 GitHub 用户名
+  createIssueManually: true # 是否手动创建 Issue，如果为 true，则会显示一个初始化按钮，点击后才会创建 Issue
 ```
 
 示例：
 ```yml title="_config.redefine.yml"
-comment:
-  config:
-    gitalk:
-      enable: true
-      clientId: "eaa8ec37487184444514"
-      clientSecret: "77f9955d0267c1331df7cc706cfa385d2beh1j41a"
-      repository: blog
-      owner: f-dong
-      createIssueManually: true
+gitalk:
+  enable: true
+  clientId: "eaa8ec37487184444514"
+  clientSecret: "77f9955d0267c1331df7cc706cfa385d2beh1j41a"
+  repository: blog
+  owner: f-dong
+  createIssueManually: true
 ```
+
+:::tip
+
+由于客观原因，国内有时无法访问 Github，因此 Gitalk 也可能会失效，如果你知道更好的评论系统，欢迎 [提交 issues](https://github.com/f-dong/hexo-theme-minimalism/issues/new/choose)，我会仔细评估并在后续版本中支持更多评论系统。
+
+:::

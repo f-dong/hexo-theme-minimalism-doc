@@ -86,6 +86,35 @@ sidebar_position: 1
 首页文章排序，可选值参考 [博文内容链接](#博文内容链接)，请注意去除 `:`，例如，想要按照文章发表日期倒序排序，则可以将 `order_by` 设置为 `-date`，正序排序则设置为 `date`。
 
 
+## 代码高亮
+
+配置项名称：`highlight` 与 `prismjs`
+
+从 Hexo5.0 版本开始自带了 [prismjs](https://prismjs.com/download.html) 代码语法高亮的支持，本主题对此进行了改造支持。
+
+如果你的博客中曾经安装过 [hexo-prism-plugin](https://github.com/ele828/hexo-prism-plugin) 插件，那么你须要执行 `npm uninstall hexo-prism-plugin` 来卸载掉它，否则生成的代码中会有 `&#123;` 和 `&#125;` 的转义字符。
+
+然后，修改 Hexo 根目录下 `_config.yml` 文件中 `highlight.enable` 的值为 `false`，并将 `prismjs.enable` 的值设置为 `true`，示例如下：
+
+```yml title="_config.yml"
+highlight:
+  // highlight-next-line
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  // highlight-next-line
+  enable: true
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+```
+
+主题中默认的 `prismjs` 主题是 [Tomorrow Night](https://prismjs.com/download.html#themes=prism-tomorrow)，如果你想定制自己的主题，可以前往 [prismjs 下载页面](https://prismjs.com/download.html) 定制下载自己喜欢的主题 `css` 文件，然后将此 `css` 主题文件取名为 `prism.css`，替换掉 `hexo-theme-minimalism` 主题文件夹中的 `source/style/prism.css` 文件即可。
+
 :::caution
 
 修改配置文件后，务必清除缓存使配置生效：
