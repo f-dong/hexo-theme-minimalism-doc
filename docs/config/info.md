@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::tip
 
-本页所有文件配置项均在 Hexo 配置根目录 `_config.yml` 中修改
+本页所有配置项均在 Hexo 配置根目录 `_config.yml` 中修改
 
 :::
 

@@ -16,7 +16,7 @@ sidebar_position: 6
 
 ### 模式
 
-配置项名称：`dark_theme.mode`
+配置项名称：`dark_theme.mode`，默认值：`auto`
 
 深色模式的模式，目前支持 `auto` 和 `dark`，`auto` 为自动模式，根据系统设置的深色模式自动切换，`dark` 为强制模式，强制切换为深色模式。
 
