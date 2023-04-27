@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Use 简单易用',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Minimalism 主题非常简单易用。您可以使用它快速轻松地搭建自己的博客，配置毫不繁琐。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on What Matters 专注内容',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Minimalism 主题让您专注于内容，我们将为您完成其他琐碎的工作。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Update frequently 维护频繁',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Redefine 主题经常更新。您可以及时获得最新的功能和修复。欢迎提交 PR 和 issue。
       </>
     ),
   },
