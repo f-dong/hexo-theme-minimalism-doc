@@ -97,12 +97,12 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'hexo',
-            position: 'left',
-            label: 'Hexo 技巧',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'hexo',
+          //   position: 'left',
+          //   label: 'Hexo 技巧',
+          // },
           {
             href: 'https://github.com/f-dong/hexo-theme-minimalism',
             label: 'GitHub',
