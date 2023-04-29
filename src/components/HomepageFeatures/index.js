@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-          Redefine 主题经常更新。您可以及时获得最新的功能和修复。欢迎提交 PR 和 issue。
+          Minimalism 主题经常更新。您可以及时获得最新的功能和修复。欢迎提交 PR 和 issue。
       </>
     ),
   },

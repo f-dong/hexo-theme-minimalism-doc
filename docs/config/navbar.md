@@ -10,7 +10,7 @@ sidebar_position: 3
 
 请写到你的链接列表，格式如下：
 
-```yaml title="_config.redefine.yml"
+```yaml title="_config.minimalism.yml"
 menu:
   Index: # 随意起名，但不能重复
     url: / # 链接地址，可以是外链
@@ -22,7 +22,7 @@ menu:
 
 例如：在头部导航栏配置跳转到百度网站的菜单：
     
-```yaml title="_config.redefine.yml"
+```yaml title="_config.minimalism.yml"
 menu:
   Baidu:
     url: "https://www.baidu.com"

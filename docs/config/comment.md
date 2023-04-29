@@ -34,7 +34,7 @@ gitalk:
 ```
 
 示例：
-```yml title="_config.redefine.yml"
+```yml title="_config.minimalism.yml"
 gitalk:
   enable: true
   clientId: "eaa8ec37487184444514"
