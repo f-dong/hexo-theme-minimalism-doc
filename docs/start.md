@@ -20,6 +20,17 @@ sidebar_position: 1
 npm install hexo-theme-minimalism
 ```
 
+#### 其他方式
+当然，你也可以使用以下方式安装：
+
+点击 [这里](https://codeload.github.com/f-dong/hexo-theme-minimalism/zip/master) 下载 `master` 分支的最新稳定版的代码，解压缩后，将 `hexo-theme-minimalism-master` 文件夹中的所有内容复制到你 `Hexo` 的 `themes/minimalism` 文件夹中即可(没有 `minimalism` 文件夹可创建后复制)。
+
+你也可以使用 git clone 命令来下载:
+
+```bash
+git clone https://github.com/f-dong/hexo-theme-minimalism.git themes/minimalism
+```
+
 ### 2. 启用主题
 
 在 Hexo 根目录的 _config.yml 文件中，将 theme 值修改为 minimalism。
@@ -57,6 +68,18 @@ npx hexo config theme minimalism
 
 ```bash npm2yarn
 npx hexo server
+```
+
+## 其他安装方式
+
+当然，你也可以直接下载主题到 `themes` 文件夹：
+
+点击 [这里](https://codeload.github.com/f-dong/hexo-theme-minimalism/zip/master) 下载 `master` 分支的最新稳定版的代码，解压缩后，将 [hexo-theme-minimalism-master] 文件夹中的所有内容复制到你 `Hexo` 的 `themes/minimalism` 文件夹中即可(没有 `minimalism` 文件夹可创建后复制)。
+
+你也可以使用 git clone 命令来下载:
+
+```bash
+git clone https://github.com/f-dong/hexo-theme-minimalism.git themes/minimalism
 ```
 
 ## 更新
