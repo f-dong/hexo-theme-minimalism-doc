@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://minimalism.codeover.cn',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'fdong', // Usually your GitHub org/user name.
+  projectName: 'hexo-theme-minimalism', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -121,10 +121,10 @@ const config = {
                 to: '/docs/start',
               },{
                 label: '配置教程',
-                to: '/docs/category/基本配置',
+                to: '/docs/config/info',
               },{
                 label: '插件支持',
-                to: '/docs/category/插件',
+                to: '/docs/plugins/pinyin',
               },
             ],
           },
