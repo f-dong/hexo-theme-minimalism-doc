@@ -4,10 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-
-const { inject } = require('@vercel/analytics');
-inject();
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Minimalism 文档',
@@ -149,6 +145,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  scripts: [
+    {src: '/_vercel/insights/script.js', defer: true},
+  ]
 };
 
 module.exports = config;
