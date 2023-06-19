@@ -47,6 +47,16 @@ comment:
 3. 如果你不会配置 Twikoo 服务端，也可以 [邮件联系我](mailto:fdong26@gmail.com)，我会在闲暇时帮你配置（建议先查看 [Twikoo 官网](https://twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2)，作者提供有视频教程。）
 :::
 
+### 预览
+#### 评论
+![评论](./img/twikoo/comment.png)
+
+#### 管理后台
+![管理后台](./img/twikoo/admin.png)
+
+#### 推送通知
+![推送通知](./img/twikoo/push.jpg)
+
 ## Gitalk 配置
 
 配置项名称：`comment.config.gitalk`
