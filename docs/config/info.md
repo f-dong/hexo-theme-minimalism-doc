@@ -94,9 +94,10 @@ sidebar_position: 1
 
 如果你的博客中曾经安装过 [hexo-prism-plugin](https://github.com/ele828/hexo-prism-plugin) 插件，那么你须要执行 `npm uninstall hexo-prism-plugin` 来卸载掉它，否则生成的代码中会有 `&#123;` 和 `&#125;` 的转义字符。
 
-然后，修改 Hexo 根目录下 `_config.yml` 文件中 `highlight.enable` 的值为 `false`，并将 `prismjs.enable` 的值设置为 `true`，示例如下：
+然后，修改 Hexo 根目录下 `_config.yml` 文件中 `highlight.enable` 的值为 `false`，并将 `prismjs.enable` 的值设置为 `true`，`syntax_highlighter` 修改为 `prismjs`，示例如下：
 
 ```yml title="_config.yml"
+syntax_highlighter: prismjs
 highlight:
   // highlight-next-line
   enable: false
@@ -114,6 +115,12 @@ prismjs:
 ```
 
 主题中默认的 `prismjs` 主题是 [Tomorrow Night](https://prismjs.com/download.html#themes=prism-tomorrow)，如果你想定制自己的主题，可以前往 [prismjs 下载页面](https://prismjs.com/download.html) 定制下载自己喜欢的主题 `css` 文件，然后将此 `css` 主题文件取名为 `prism.css`，替换掉 `hexo-theme-minimalism` 主题文件夹中的 `source/style/prism.css` 文件即可。
+
+:::caution
+
+HEXO 7.0.0 版本开始，配置文件发生了改变，新增了一个 `syntax_highlighter` 配置项，如果你是从旧版本升级，务必添加 `syntax_highlighter` 选项并更新主题，否则代码高亮可能不生效！！
+
+:::
 
 :::caution
 
